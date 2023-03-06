@@ -1,0 +1,177 @@
+
+body {
+    font-family: "Montserrat";
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5 
+}
+
+p {
+    color: #8f8f8f
+}
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    
+}
+
+.nav-item {
+    padding: 0 17px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+
+}
+
+.tux {
+    transform: rotate(5deg);
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    right: 80px;
+    width: 350px;
+}
+
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index:2;
+    background-color: white;
+    
+    }
+/* DOWNLOAD BUTTONS */
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+.r-icon{
+    color: #ed8172;
+    padding-bottom: 5%;
+}
+
+.r-icon:hover{
+    color: #ff4c68;
+}
+
+
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.catimg {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image-girl {
+    border-radius: 100%;
+    width: 10%;
+}
+
+/* TESTIMONIAL */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ed8172;
+    color: #fff
+}
+
+#press {
+    background-color: #ed8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.price-btn {
+
+    background-color:  #ff4c68;
+    border: none;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+#footer {
+    text-align: center;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    .tux {
+        position: static;
+        transform: rotate(0)
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #cta {
+        text-align: center;
+    }
+}
